@@ -1,4 +1,4 @@
-body{border: dotted 6px rgb(0, 9, 128);
+body{
     width: auto;
     display: flex;
     flex-direction: column; 
@@ -12,7 +12,7 @@ body{border: dotted 6px rgb(0, 9, 128);
     position: absolute;
    }
 
-header{border: dotted 6px green;
+header{
     background-color:#f6bef8;
     padding: 20px 0;
 }
@@ -137,7 +137,7 @@ color: black;
 
 /* pricipal */
 
-.principal{border: dotted 6px green;
+.principal{
     display: flex;
     flex-direction: row; 
     width:1000px ;
@@ -216,7 +216,7 @@ margin: 20px 0px;
     height: auto;
    }
 
-.refereciasSobreMi{ border: dotted 6px green;
+.refereciasSobreMi{ 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -268,7 +268,7 @@ margin: 20px 0px;
 
 /*skills*/
 
-.gurpoPricipal{border: dotted 6px green;
+.gurpoPricipal{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -277,7 +277,7 @@ margin: 20px 0px;
     margin-top: 10px; 
 }
 
-.gurpo{ border: dotted 6px cyan;
+.gurpo{ 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,7 +286,7 @@ margin: 20px 0px;
     margin-left: 0%;
 }
 
-.subgurpo{border: dotted 6px yellow;
+.subgurpo{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -356,7 +356,7 @@ margin: 20px 0px;
 
 /* Proyectos Pagina Web */
 
-#proyectosPaginaWeb{border: dotted 6px green;
+#proyectosPaginaWeb{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -365,11 +365,10 @@ margin: 20px 0px;
     width: 1000px;  
     margin-bottom: 0%;
     background-color:#F2DBF7;
-   margin-top: 1110px;
-
+   margin-top: 930px;
 }
 
-.proyectito{ border: dotted 6px cyan;
+.proyectito{
     width: 940px;
     height: 400px;
     margin: 50px;
@@ -381,8 +380,8 @@ margin: 20px 0px;
 
 .textoProyectito{
     font-weight: bold; 
-    font-size: 20px;   
-    line-height: 22px;  
+    font-size: 30px;   
+    line-height: 32px;  
 }
 
 .imagenesProyectito{
@@ -408,13 +407,11 @@ margin: 20px 0px;
 }
 
 .boton{
-    text-align: end;
-    width: 100%;
-    padding: 25px 10px;
-    font-size: 18px;
+    width: 150px;
+    font-size: 20px;
     font-weight: bold;
     color: white;
-    background: rgb(213, 104, 247);
+    background: rgb(252, 8, 199);
     border: none;
     border-radius: 5px;
     box-shadow: 25px 25px 25px rgb(100, 2, 59);
@@ -432,7 +429,7 @@ footer{
     position: absolute;   
 }
 
-.contacto{border: dotted 6px green;
+.contacto{
     display: flex;
     flex-direction: column;
     position: static;
@@ -441,7 +438,7 @@ footer{
    flex: none;
    order: 0;
    flex-grow: 0;
-   margin-top: 3160px;
+   margin-top: 2920px;
 }
 
 .contacto-container{
@@ -458,7 +455,7 @@ footer{
     padding: 0;
 }
 
-.formulario{border: dotted 6px yellow;
+.formulario{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -483,8 +480,8 @@ footer{
 
 #formulario-texto{
     font-weight: 500; 
-    font-size: 16px;   
-    line-height: 19px;   
+    font-size: 18px;   
+    line-height: 20px;   
 }
 
 .campo{
@@ -530,13 +527,15 @@ textarea{
     background: #ebb1dc;
 }
 
-.rodape{ border: dotted 6px red;
+/* footer*/
+.rodape{ 
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: auto;
     height: 50px; 
-    margin-top: 4620px;
+    margin-top: 4330px;
     background: #f7dbf1;
 }
