@@ -1,0 +1,114 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    position: static;
+    height: 100%;
+    width: 100%;
+    height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 1700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-container {
+    background: #f203fa;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 80%;
+}
+
+.formulario-topo {
+    background: #fc8ee9;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 80%;
+    padding: 0%;
+    margin-top: 0%;
+}
+
+.formulario-titulo {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+#formulario-texto {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.campo {
+    background-color: #f203fa;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 100%;
+
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 640px;
+    height: 56px;
+    margin-bottom: 5px;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0%;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.enviar {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    width: 144px;
+    height: 51px;
+    background: #ebb1dc;
+}
+
+.rodape {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 50px;
+    background: #f7dbf1;
+}

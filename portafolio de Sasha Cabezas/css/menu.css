@@ -1,0 +1,53 @@
+header {
+    background-color: #f6bef8; 
+    display: flex;
+  }
+
+.menuPricipal {
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logo {
+    width: 60%;
+    font-size: 2rem;
+    height: 8%;
+    left: 30%;
+    top: 30%;
+   
+}
+
+.menu{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    list-style: none;
+    padding-left:1% ;
+}
+
+.menuLista {
+    display: flex;
+    margin-right: 0;
+}
+
+.menuIten{
+    list-style: none;
+}
+
+.menuIten:last-child{
+    margin-right: 0;
+}
+.menuLink {
+    color: blueviolet;
+    text-decoration: none; 
+    margin-left: 1.25rem;
+    text-transform: lowercase;
+}
+
+.menuLink:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,83 @@
+
+
+.gurpoPricipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.gurpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+
+.subgurpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.miniGurpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 15%;
+    height: 28vh;
+    background: #f0b8d7;
+    margin-top: 20px;
+}
+
+.gurpoImg {
+    width: 30%;
+    height: 35.54%;
+    margin-left: 25%;
+}
+
+.gurpoTitulo {
+    font-size: 2rem;
+    line-height: 2rem;
+    margin-top: 1em;
+    margin-left: 25%;
+}
+
+.miniGurpo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 30%;
+    height: 40%;
+    background-color: #F2DBF7;
+}
+
+.experiencia-item-img {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 88px;
+    margin-top: 78px;
+    color: #eb89d6;
+    position: static;
+}
+
+.experiencia-item-titulo {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+.experiencia-item-texto {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}

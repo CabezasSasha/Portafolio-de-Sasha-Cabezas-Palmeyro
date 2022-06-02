@@ -1,0 +1,63 @@
+
+#grad {
+    background-color: #ffdaea;
+    font-weight: normal;
+    height: auto;
+}
+
+.refereciasSobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 100%;
+    height: auto;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 30px 0px;
+}
+
+.todoLostitulos {
+    position: relative;
+    width: 100%;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
+
+.parrafoSobreMi {
+    position: static;
+    width: 100%;
+    font-size: 25px;
+    line-height: 30px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+#imgSobre {
+    position: static;
+    width: 250px;
+    height: 50px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 10px 0px;
+
+}
+
+#sobre-lorem {
+    width: 68%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19px;
+}

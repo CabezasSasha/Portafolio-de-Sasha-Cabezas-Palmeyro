@@ -1,0 +1,65 @@
+
+.principal {
+    background-color: #f6bef8;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 2.5rem;
+    margin-top: 2%;
+}
+
+.principalPersetacion {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.nombrePersonal {
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+#soyFormada {
+    color: rgb(240, 15, 64);
+    font-size: 2rem;
+    line-height: normal;
+    margin: 0 auto 2.5rem;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: static;
+    width: 70%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 1rem 0px;
+}
+
+.linkDeAcceso {
+    position: static;
+    width: 70%;
+    font-weight: 500;
+    font-size: 2rem;
+    color: rgb(228, 19, 123);
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.imgPefil {
+    width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin: 0%;
+    align-items: flex-end;
+    float: right;
+    border-radius: 100%;
+}
