@@ -1,0 +1,76 @@
+/* Menu */
+/* Estilos generales del encabezado */
+header {
+  background-color: #333; /* Cambia el color de fondo del encabezado */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 2rem;
+  color: #f6bef8; /* Cambia el color del texto del logo */
+}
+
+/* Estilos de la navegación */
+.menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.menuLista {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.menuIten {
+  margin-right: 1rem;
+}
+
+.menuIten:last-child {
+  margin-right: 0;
+}
+
+.menuLink {
+  color: #fff; /* Cambia el color del texto del enlace del menú */
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.9rem; /* Tamaño de letra más pequeño */
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.menuLink:hover {
+  background-color: #f6bef8; /* Cambia el color del fondo al pasar el ratón */
+  border-radius: 5px;
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .menuIten {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Responsividad para pantallas aún más pequeñas */
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .menuLink {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+  }
+}

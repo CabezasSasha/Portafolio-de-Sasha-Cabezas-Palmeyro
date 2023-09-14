@@ -1,0 +1,145 @@
+/* Estilos para la sección de "Proyectos" */
+#proyectosPaginaWeb {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  background: linear-gradient(135deg, #ff4d7b, #ff66a6, #ff0084); /* Rosa chicle, rosa intermedio, fucsia */
+  padding: 30px 0;
+}
+
+.todoLostitulos {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 1rem;
+  color: #fff; /* Texto en blanco */
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto para mayor contraste */
+}
+
+.img-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.proyectito {
+  width: 300px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.proyectito:hover {
+  transform: scale(1.05);
+}
+
+.proyectito-imagen {
+  position: relative;
+}
+
+.textoProyectito {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto para mayor contraste */
+}
+
+.imagenesProyectito {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.proyectito-boton {
+  padding: 10px;
+  text-align: center;
+}
+
+.boton {
+  background-color: #ff4d7b; /* Rosa chicle */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra en el botón para mayor profundidad */
+}
+
+.boton:hover {
+  background-color: #ff0084; /* Fucsia */
+  transform: scale(1.05); /* Efecto de escala al hacer hover para destacar */
+}
+
+/* Ajustes para centrar el repositorio más grande */
+.proyectito:nth-child(2) {
+  margin: 20px auto; /* Centrar el segundo repositorio */
+}
+
+.proyectito:nth-child(2) .proyectito-boton {
+  margin-bottom: 0; /* Eliminar el margen inferior del botón */
+}
+
+.proyectito:nth-child(2) .proyectito-boton .boton {
+  width: 200px; /* Ajustar el ancho del botón para que no ocupe todo el ancho */
+}
+
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .proyectito {
+    width: 90%; /* Los proyectos ocupan el 90% del ancho en pantallas más pequeñas */
+    max-width: 300px; /* Establecer un ancho máximo para evitar que se estiren demasiado */
+  }
+
+  .todoLostitulos {
+    font-size: 28px; /* Reduce el tamaño del título para pantallas más pequeñas */
+  }
+
+  .proyectito-boton .boton {
+    font-size: 18px; /* Reduce el tamaño del botón para pantallas más pequeñas */
+  }
+}
+
+/* Responsividad para pantallas más grandes */
+@media screen and (min-width: 1200px) {
+  #proyectosPaginaWeb {
+    max-width: 1200px; /* Limita el ancho máximo de la sección en pantallas grandes */
+    margin: 0 auto; /* Centra la sección en pantallas grandes */
+  }
+
+  .proyectito {
+    width: calc(33.33% - 40px); /* Mostrar tres proyectos por fila en pantallas grandes */
+    max-width: 300px; /* Establecer un ancho máximo para evitar que se estiren demasiado */
+  }
+}
+
+/* Responsividad para pantallas más pequeñas (hasta 480px) */
+@media screen and (max-width: 480px) {
+  #proyectosPaginaWeb {
+    padding: 20px 0; /* Reducir el espacio entre proyectos en pantallas pequeñas */
+  }
+
+  .proyectito {
+    width: 100%; /* Proyectos ocupan todo el ancho en pantallas pequeñas */
+    max-width: none; /* Eliminar el ancho máximo para que los proyectos ocupen todo el espacio disponible */
+    margin: 10px 0; /* Añadir un margen entre proyectos en pantallas pequeñas */
+  }
+
+  .todoLostitulos {
+    font-size: 24px; /* Reducir el tamaño del título para pantallas pequeñas */
+  }
+
+  .proyectito-boton .boton {
+    font-size: 16px; /* Reducir el tamaño del botón para pantallas pequeñas */
+  }
+}

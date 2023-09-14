@@ -1,0 +1,52 @@
+/* Estilos para la sección "Sobre mí" */
+#grad {
+  background-color: #ffdaea;
+  padding: 2rem;
+}
+
+.refereciasSobreMi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  margin: 30px auto;
+}
+  
+.parrafoSobreMi {
+  font-size: 18px;
+  line-height: 1.6; /* Ajusta el espacio entre líneas para mejorar la legibilidad */
+  margin-bottom: 2rem; /* Aumenta el margen inferior para dar más espacio al párrafo */
+}
+
+#imgSobre {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el enlace dentro del párrafo */
+.parrafoSobreMi a {
+  color: blueviolet; /* Cambia el color del enlace */
+  text-decoration: none; /* Quita el subrayado predeterminado del enlace */
+}
+
+.parrafoSobreMi a:hover {
+  text-decoration: underline; /* Agrega subrayado al pasar el ratón sobre el enlace */
+}
+
+/* Estilos para el contenedor de la imagen */
+.imagenContainer {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente la imagen */
+  margin-top: 1rem; /* Agrega un margen superior adicional */
+}
+
+/* Estilos para el párrafo de agradecimiento */
+.agradecimiento {
+  font-style: italic;
+  color: #888; /* Cambia el color del texto de agradecimiento */
+}
+  

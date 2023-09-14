@@ -1,0 +1,482 @@
+"""
+Estilos para la sección de "Contacto"
+"""
+.contacto {
+    background: #000000;
+    padding: 5% 0; /* Ajustar el padding superior e inferior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+}
+.contacto-container {
+    background: #f7b7ff;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+.formulario-topo {
+    background: #fc8ee9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.formulario-titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+#formulario-texto {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+.campo {
+    background-color: #f7b7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    width: 100%;
+}
+input,
+textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente el textarea */
+}
+.enviar {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    width: auto;
+    background: #e87ecc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #050505;
+    text-decoration: none;
+}
+.enviar:hover {
+    background: #e93c84;
+    color: #fff;
+}
+
+/* Estilos para el pie de página */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f7dbf1;
+    padding: 10px;
+}
+.rodape {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Estilos adicionales para mejorar la responsividad */
+@media screen and (max-width: 768px) {
+    .contacto-container {
+        flex-direction: column;
+    }
+    .formulario-topo {
+        margin-bottom: 10px;
+    }
+    input, textarea {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formulario-titulo {
+        font-size: 2rem;
+    }
+    #formulario-texto {
+        font-size: 1.2rem;
+    }
+    .enviar {
+        font-size: 1rem;
+    }
+    .rodape {
+        font-size: 0.8rem;
+    }
+}
+
+/* Estilos generales del encabezado */
+header {
+    background-color: #333; /* Cambia el color de fondo del encabezado */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.logo {
+    font-size: 2rem;
+    color: #f6bef8; /* Cambia el color del texto del logo */
+}
+
+/* Estilos de la navegación */
+.menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menuLista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.menuIten {
+    margin-right: 1rem;
+}
+.menuIten:last-child {
+    margin-right: 0;
+}
+.menuLink {
+    color: #fff; /* Cambia el color del texto del enlace del menú */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem; /* Tamaño de letra más pequeño */
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
+}
+.menuLink:hover {
+    background-color: #f6bef8; /* Cambia el color del fondo al pasar el ratón */
+    border-radius: 5px;
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .menuIten {
+        margin: 0.5rem 0;
+    }
+}
+
+/* Responsividad para pantallas aún más pequeñas */
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+    .menuLink {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+/* Estilos para la sección principal */
+.principal {
+    background-color: #f6bef8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8rem 0 2.5rem;
+}
+.principalPersetacion {
+    max-width: 800px;
+    text-align: center;
+}
+.nombrePersonal {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+    color: #333; /* Cambia el color del texto para que resalte sobre el fondo */
+}
+#soyFormada {
+    color: rgb(240, 15, 64);
+    font-size: 1.5rem; /* Reduce un poco el tamaño de la letra para que sea más legible */
+    margin-bottom: 2.5rem; /* Ajusta el margen inferior para un mejor espaciado */
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Centra los enlaces horizontalmente */
+    margin-bottom: 2rem; /* Ajusta el margen inferior para un mejor espaciado */
+}
+.linkDeAcceso {
+    font-weight: bold;
+    font-size: 1.2rem; /* Reduce un poco el tamaño de la letra para que sea más equilibrado */
+    color: rgb(228, 19, 123);
+    text-decoration: none;
+    margin: 0 1rem; /* Agrega un margen entre los enlaces */
+    padding: 0.5rem 1rem; /* Agrega espacio alrededor de los enlaces para que se destaquen */
+    border: 2px solid rgb(228, 19, 123); /* Agrega un borde para resaltar los enlaces */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.linkDeAcceso:hover {
+    background-color: rgb(228, 19, 123); /* Cambia el fondo al pasar el ratón para que resalte */
+    color: #fff; /* Cambia el color del texto al pasar el ratón para que sea legible */
+}
+.imgPefil {
+    width: 200px; /* Reduce el tamaño de la imagen para que se ajuste mejor al diseño */
+    height: 200px;
+    margin-top: 20px; /* Ajusta el margen superior para centrar la imagen verticalmente */
+    border-radius: 50%; /* Usa 50% para un círculo perfecto */
+    border: 5px solid #fff; /* Agrega un borde blanco para resaltar la imagen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave para darle un toque elegante */
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .principal {
+        padding: 6rem 0 1.5rem; /* Ajusta el padding superior e inferior */
+    }
+    .nombrePersonal {
+        font-size: 2rem; /* Reduce el tamaño del nombre para que se ajuste mejor */
+        line-height: 2.5rem; /* Ajusta el espaciado entre líneas */
+    }
+    #soyFormada {
+        font-size: 1.2rem; /* Reduce el tamaño del texto para que sea más legible */
+    }
+    .imgPefil {
+        width: 150px; /* Reduce el tamaño de la imagen para que se ajuste mejor */
+        height: 150px;
+    }
+}
+
+/* Responsividad para pantallas aún más pequeñas */
+@media screen and (max-width: 480px) {
+    .nombrePersonal {
+        font-size: 1.5rem; /* Reduce aún más el tamaño del nombre para pantallas muy pequeñas */
+        line-height: 2rem; /* Ajusta el espaciado entre líneas */
+    }
+    #soyFormada {
+        font-size: 1rem; /* Reduce aún más el tamaño del texto para pantallas muy pequeñas */
+        margin-bottom: 1.5rem; /* Ajusta el margen inferior para un mejor espaciado */
+    }
+    .imgPefil {
+        width: 120px; /* Reduce aún más el tamaño de la imagen para pantallas muy pequeñas */
+        height: 120px;
+    }
+}
+
+/* Estilos para la sección de "Proyectos" */
+#proyectosPaginaWeb {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    background: linear-gradient(135deg, #ff4d7b, #ff66a6, #ff0084); /* Rosa chicle, rosa intermedio, fucsia */
+    padding: 30px 0;
+}
+.todoLostitulos {
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 1rem;
+    color: #fff; /* Texto en blanco */
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto para mayor contraste */
+}
+.img-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.proyectito {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+.proyectito:hover {
+    transform: scale(1.05);
+}
+.proyectito-imagen {
+    position: relative;
+}
+.textoProyectito {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Sombra en el texto para mayor contraste */
+}
+.imagenesProyectito {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+.proyectito-boton {
+    padding: 10px;
+    text-align: center;
+}
+.boton {
+    background-color: #ff4d7b; /* Rosa chicle */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra en el botón para mayor profundidad */
+}
+.boton:hover {
+    background-color: #ff0084; /* Fucsia */
+    transform: scale(1.05); /* Efecto de escala al hacer hover para destacar */
+}
+.proyectito:nth-child(2) {
+    margin: 20px auto; /* Centrar el segundo repositorio */
+}
+.proyectito:nth-child(2) .proyectito-boton {
+    margin-bottom: 0; /* Eliminar el margen inferior del botón */
+}
+.proyectito:nth-child(2) .proyectito-boton .boton {
+    width: 200px; /* Ajustar el ancho del botón para que no ocupe todo el ancho */
+}
+@media screen and (max-width: 768px) {
+    .proyectito {
+        width: 90%; /* Los proyectos ocupan el 90% del ancho en pantallas más pequeñas */
+        max-width: 300px; /* Establecer un ancho máximo para evitar que se estiren demasiado */
+    }
+    .todoLostitulos {
+        font-size: 28px; /* Reduce el tamaño del título para pantallas más pequeñas */
+    }
+    .proyectito-boton .boton {
+        font-size: 18px; /* Reduce el tamaño del botón para pantallas más pequeñas */
+    }
+}
+@media screen and (min-width: 1200px) {
+    #proyectosPaginaWeb {
+        max-width: 1200px; /* Limita el ancho máximo de la sección en pantallas grandes */
+        margin: 0 auto; /* Centra la sección en pantallas grandes */
+    }
+    .proyectito {
+        width: calc(33.33% - 40px); /* Mostrar tres proyectos por fila en pantallas grandes */
+        max-width: 300px; /* Establecer un ancho máximo para evitar que se estiren demasiado */
+    }
+}
+@media screen and (max-width: 480px) {
+    #proyectosPaginaWeb {
+        padding: 20px 0; /* Reducir el espacio entre proyectos en pantallas pequeñas */
+    }
+    .proyectito {
+        width: 100%; /* Proyectos ocupan todo el ancho en pantallas pequeñas */
+        max-width: none; /* Eliminar el ancho máximo para que los proyectos ocupen todo el espacio disponible */
+        margin: 10px 0; /* Añadir un margen entre proyectos en pantallas pequeñas */
+    }
+    .todoLostitulos {
+        font-size: 24px; /* Reducir el tamaño del título para pantallas pequeñas */
+    }
+    .proyectito-boton .boton {
+        font-size: 16px; /* Reducir el tamaño del botón para pantallas pequeñas */
+    }
+}
+
+/* Estilos para la sección "Skills" en 3 filas para desplazarse horizontalmente */
+.gurpoPricipal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.gurpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+    background-color: #efc1f9;
+}
+.subgurpo {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: auto; /* Permite el desplazamiento horizontal */
+    width: 100%;
+    margin-top: 20px;
+}
+.miniGurpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 18vh;
+    background: #f069b4;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.gurpoImg {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+}
+.gurpoTitulo {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para la sección "Sobre mí" */
+#grad {
+    background-color: #ffdaea;
+    padding: 2rem;
+}
+.refereciasSobreMi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+}
+.parrafoSobreMi {
+    font-size: 18px;
+    line-height: 1.6; /* Ajusta el espacio entre líneas para mejorar la legibilidad */
+    margin-bottom: 2rem; /* Aumenta el margen inferior para dar más espacio al párrafo */
+}
+#imgSobre {
+    width: 250px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.imagenContainer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    margin-top: 1rem; /* Agrega un margen superior adicional */
+}
+.agradecimiento {
+    font-style: italic;
+    color: #888; /* Cambia el color del texto de agradecimiento */
+}
+"""

@@ -1,0 +1,102 @@
+/* Estilos para la sección principal */
+.principal {
+  background-color: #f6bef8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8rem 0 2.5rem;
+}
+
+.principalPersetacion {
+  max-width: 800px;
+  text-align: center;
+}
+
+.nombrePersonal {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+  color: #333; /* Cambia el color del texto para que resalte sobre el fondo */
+}
+
+#soyFormada {
+  color: rgb(240, 15, 64);
+  font-size: 1.5rem; /* Reduce un poco el tamaño de la letra para que sea más legible */
+  margin-bottom: 2.5rem; /* Ajusta el margen inferior para un mejor espaciado */
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centra los enlaces horizontalmente */
+  margin-bottom: 2rem; /* Ajusta el margen inferior para un mejor espaciado */
+}
+
+.linkDeAcceso {
+  font-weight: bold;
+  font-size: 1.2rem; /* Reduce un poco el tamaño de la letra para que sea más equilibrado */
+  color: rgb(228, 19, 123);
+  text-decoration: none;
+  margin: 0 1rem; /* Agrega un margen entre los enlaces */
+  padding: 0.5rem 1rem; /* Agrega espacio alrededor de los enlaces para que se destaquen */
+  border: 2px solid rgb(228, 19, 123); /* Agrega un borde para resaltar los enlaces */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.linkDeAcceso:hover {
+  background-color: rgb(228, 19, 123); /* Cambia el fondo al pasar el ratón para que resalte */
+  color: #fff; /* Cambia el color del texto al pasar el ratón para que sea legible */
+}
+
+.imgPefil {
+  width: 200px; /* Reduce el tamaño de la imagen para que se ajuste mejor al diseño */
+  height: 200px;
+  margin-top: 20px; /* Ajusta el margen superior para centrar la imagen verticalmente */
+  border-radius: 50%; /* Usa 50% para un círculo perfecto */
+  border: 5px solid #fff; /* Agrega un borde blanco para resaltar la imagen */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave para darle un toque elegante */
+}
+
+/* Estilos para diferentes tamaños de pantalla */
+
+/* Responsividad para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .principal {
+    padding: 6rem 0 1.5rem; /* Ajusta el padding superior e inferior */
+  }
+
+  .nombrePersonal {
+    font-size: 2rem; /* Reduce el tamaño del nombre para que se ajuste mejor */
+    line-height: 2.5rem; /* Ajusta el espaciado entre líneas */
+  }
+
+  #soyFormada {
+    font-size: 1.2rem; /* Reduce el tamaño del texto para que sea más legible */
+  }
+
+  .imgPefil {
+    width: 150px; /* Reduce el tamaño de la imagen para que se ajuste mejor */
+    height: 150px;
+  }
+}
+
+/* Responsividad para pantallas aún más pequeñas */
+@media screen and (max-width: 480px) {
+  .nombrePersonal {
+    font-size: 1.5rem; /* Reduce aún más el tamaño del nombre para pantallas muy pequeñas */
+    line-height: 2rem; /* Ajusta el espaciado entre líneas */
+  }
+
+  #soyFormada {
+    font-size: 1rem; /* Reduce aún más el tamaño del texto para pantallas muy pequeñas */
+    margin-bottom: 1.5rem; /* Ajusta el margen inferior para un mejor espaciado */
+  }
+
+  .imgPefil {
+    width: 120px; /* Reduce aún más el tamaño de la imagen para pantallas muy pequeñas */
+    height: 120px;
+  }
+}
